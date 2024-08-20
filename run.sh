@@ -6,13 +6,13 @@ killall servdaemon
 killall client
 ./servdaemon  
 
-#On lance 3 clients
+#Run 3 clients
 ./client &
 ./client &
 ./client &
 
 
-#affiche les processus
+#Show process
 ps -jH
 netstat -npt | grep 20 
 echo "Affichage state terminé"
