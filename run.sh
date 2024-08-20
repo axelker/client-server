@@ -15,6 +15,6 @@ killall client
 #Show process
 ps -jH
 netstat -npt | grep 20 
-echo "Affichage state terminé"
+echo "Finish to show state"
 
 
